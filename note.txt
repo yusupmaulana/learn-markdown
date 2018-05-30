@@ -1,0 +1,36 @@
+======Markdown========
+
+=> daringfireball.net
+
+0. Intro ================================================================================
+- markdown ini cara kita ngerubah dari bentuk teks biasa ke html.
+- contohnya ketika di forum kita ingin user bisa nampilin kode nya, kita bisa menggunakan markdown.
+- jika website yang kita buat mendukung markdown, kita bisa nampilin nya dengan menggunakan library atau package-package yang udah ada.
+- untuk lebih detail nya bisa di lihat menu syntax di website daringfireball.net
+
+1. Markdown php =========================================================================
+- pada bagian ini kita akan belajar bagaiamana meng convert tulisan markdown menjadi php.
+- menggunakan library yang namanya Parsedown.
+- download file Parsedown.php atau install menggunakan composer.
+- buat file index.php dan include file Parsedown.php yang tadi.
+- kemudian liat cara penggunaannya pada halaman wiki dari Parsedown.
+- lihat metode-metode lainnya (selain text) ngapain aja di halaman usage wiki nya.
+
+2. Markdown Link, gambar, dan kode ======================================================
+- use the `printf()` (pake backtick) -- code
+- [an example](http://example.com/ 'title') -- link
+- ![gambar meja](gambar.png) -- gambar
+
+3. highlight kode =======================================================================
+- highlight ini membuat kode yang kita tulis di dalam markdown menjadi lebih menarik, salah satu library nya yaitu highlight.js
+- buka bagian getting started pada highlight.js
+- load script nya.
+- agar menjadi tag <pre></pre> maka diakali dengan menggunakan indent 4x (2x spasi). maka secara otomatis syntax nya akan ter highlight.
+- itu tadi cara pertama.
+- cara keduanya yaitu dengan menggunakan tiga backtick ``` some code``` (tp harus dibikin kebawah).
+
+
+4. Markdown Javascript ==================================================================
+- kali ini kita akan ngeliat cara ngeluarin output markdown menggunakan package yang ada di Javascript.
+- nama packagenya yaitu chjj/marked. langsung lihat basic usage nya.
+- cara install : npm install markded --save
